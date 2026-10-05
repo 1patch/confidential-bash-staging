@@ -13,7 +13,7 @@ containers:
     pids_limit: 512
     memory: "12g"
     env:
-      - SURE_BASH_ISSUER_PUBLIC_KEY: "MCowBQYDK2VwAyEAEB5kKNQSiAPsdbX8b4A56WionvvVpTqYzzbL2J9km3Y="
+      - SURE_BASH_ISSUER_PUBLIC_KEY: "MCowBQYDK2VwAyEAShawvYlU7hcfwogjDE4ZCZh+zVDwng7eLvvmUK+isTU="
     tmpfs:
       /run: "rw,nosuid,nodev,mode=755,size=64m"
       /tmp: "rw,nosuid,nodev,mode=1777,size=64m"

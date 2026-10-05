@@ -1,3 +1,7 @@
+# Confidential Bash staging
+
+Isolated Sure staging deployment of the public generic [runner](https://github.com/1patch/confidential-bash-runner). It uses the same immutable image as production and a separate staging issuer public key. The private key remains host-encrypted on the staging coordinator.
+
 # Confidential Bash runner
 
 A small generic Bash execution service intended for a dedicated Tinfoil CVM.
